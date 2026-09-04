@@ -10,16 +10,16 @@ import albumCover from '@/assets/album-cover.jpg';
 
 const tracks = [
   {
-    title: 'Shake it to the max',
-    artist: 'MOLIY',
-    albumArt: albumCover,
+    title: 'GATA ONLY (SLOWED)',
+    artist: 'GATA ONLY',
+    albumArt: VENOME,
     duration: '3:00',
     audioSrc: '/audio/shake-it-to-the-max.mp3',
   },
 ];
 
 // Discord User ID for Lanyard API
-const DISCORD_USER_ID = '544047377540186114';
+const DISCORD_USER_ID = '1508400186622218250';
 
 const ProfileCard = () => {
   const [activeTab, setActiveTab] = useState<'home' | 'projects' | 'contact'>('home');
